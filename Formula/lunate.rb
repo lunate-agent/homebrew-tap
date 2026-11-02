@@ -12,11 +12,11 @@ class Lunate < Formula
   end
 
   if OS.mac?
-    url "https://github.com/wdaniel1993/lunate/releases/download/v0.2.0/lunate-osx-arm64.tar.gz"
-    sha256 "dbc107d3606edc735a07fdbd5ad0275901d50b02943f742267914da3c48cfa79"
+    url "https://github.com/wdaniel1993/lunate/releases/download/v0.2.1/lunate-osx-arm64.tar.gz"
+    sha256 "0e69e74129eca1f7a180d5d490b3916ebffc1d9a3393a90d09118bf41a9fec8e"
   elsif OS.linux?
-    url "https://github.com/wdaniel1993/lunate/releases/download/v0.2.0/lunate-linux-x64.tar.gz"
-    sha256 "eb6bc0e21eb7d97f256235bf5ec98978dbf8aa7402d6299007baa397af068e77"
+    url "https://github.com/wdaniel1993/lunate/releases/download/v0.2.1/lunate-linux-x64.tar.gz"
+    sha256 "397d2ccab334282ba3f75b09670c7892a7a9113e124ca4b2bb63b3f4793fe8fc"
   end
 
   def install
